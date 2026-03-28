@@ -1,10 +1,3 @@
-pipeline {
-    agent any
-    stages {
-        stage('DEBUG') {
-            steps {
-                echo 'DEBUG RUNNING'
-            }
-        }
-    }
+node {
+    echo 'HELLO FROM JENKINS! CAN YOU SEE THIS?'
 }
